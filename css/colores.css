@@ -1,0 +1,17 @@
+.tema-oscuro{
+    background-color: #253237;
+    color: white;
+    
+}
+
+.boton-oscuro{
+    background-color: cornflowerblue;
+    color: black;
+    border: 1px solid white;
+}
+
+.input-oscuro{
+    background-color: #253237;
+    color: white;
+    border: 1px solid white;
+}

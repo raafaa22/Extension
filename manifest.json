@@ -1,0 +1,24 @@
+{
+    "name": "Tema Oscuro/Claro",
+    "description": "Con esta extension podrás cambiar el tema de cualquier página de oscuro a claro y viceversa",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "/imagenes/icono.png"
+    },
+    "icons": {
+        "16": "/imagenes/icono.png",
+        "32": "/imagenes/icono.png",
+        "48": "/imagenes/icono.png",
+        "128": "/imagenes/icono.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["scripts/content.js"],
+        "css": ["css/colores.css"]
+      }
+    ],
+    "permissions": ["activeTab", "storage"]
+  }
